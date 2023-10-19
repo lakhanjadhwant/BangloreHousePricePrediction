@@ -49,4 +49,4 @@ if st.button('Estimate Price'):
     if area == 0:
         st.error("Enter Area!!")
     else:
-        st.success(F'{result} Lake Rs.')
+        st.success(F'Rupees {result} Lakh')
